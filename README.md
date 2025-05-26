@@ -1,2 +1,20 @@
-# PHiM
-Polar Hierarchical Mamba: Towards Streaming LiDAR Object Detection with Point Clouds as Egocentric Sequences
+# Polar Hierarchical Mamba: Towards Streaming LiDAR Object Detection with Point Clouds as Egocentric Sequences
+
+<!-- [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2406.10700) -->
+
+This repo is the official implementation of our 4DV @ CVPR 2025 paper Polar Hierarchical Mamba: Towards Streaming LiDAR Object Detection with Point Clouds as Egocentric Sequences. Our Polar Hierarchical Mamba achieves state-of-the-art streaming performance on Waymo Open. It processes partial sectors of scanning LiDAR outputs, enabling 2x higher inference throughput and prediction refinement over time.
+
+## 🔥News
+-[25-04-28] Polar Hierarchical Mamba is accepted by **4DV @ CVPR 2025!**
+
+## 📘TODO
+- [ ] Release the arXiv version.
+- [ ] Clean up and release the code.
+- [ ] Release code of Waymo.
+- [ ] Release code of NuScenes.
+- [ ] Release code of visualization and evaluation metrics.
+- [ ] Merge Polar Hierarchical Mamba to [OpenPCDet](https://github.com/open-mmlab/OpenPCDet).
+
+## Acknowledgments
+PHiM is based on [OpenPCDet](https://github.com/open-mmlab/OpenPCDet) and [Voxel Mamba]([https://github.com/gwenzhang/Voxel-Mamba]).  
+We also thank the CenterPoint, TransFusion, OctFormer, Mamba, and HEDNet authors for their efforts.
